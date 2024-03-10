@@ -1,14 +1,45 @@
-<h1> Membership Management Project </h1>
-<p> Given a few classes, this project, using object-oriented programming, is made to manage the subscribers of a service. </p>
-<p>The number of premium subscribers is calculated, and a method is implemented to find the total amount of money collected from all subscribers, assuming that the period is represented as the number of months and the price is paid monthly. </p>
+# Membership Management System
 
-<p> The Customers class is implemented to store a list of Subscriber objects. The Subscriber class has attributes such as name, subscription type, and subscription duration. The Customers class has a method that iterates through the list of subscribers and returns the count of premium subscribers. </p>
+The Membership Management System is a C++ program designed to manage subscribers of a service using object-oriented programming principles. It includes classes to represent subscribers, their subscriptions, and methods to perform various operations related to subscriber management.
 
-<p>The class also has a method that calculates the total revenue collected from all subscribers; it iterates through the list of subscribers, calculates the subscription price based on the subscription type and duration, and adds it to a running total. </p>
+## Classes
 
-<p>Overall, the Customers class provides a way to manage and analyze the subscribers, and the implemented methods allow for easy calculation of important metrics such as the number of premium subscribers and total revenue collected. </p>
+### 1. `Abonament`
+- Represents a subscription with attributes such as name, price, and duration.
+- Provides methods to set and get subscription details, calculate total revenue, and apply discounts.
 
+### 2. `Abonament_Premium`
+- Inherits from `Abonament` and represents a premium subscription with an additional attribute for discount.
+- Overrides methods to calculate total revenue considering discounts.
 
+### 3. `Persoana`
+- Represents a person with attributes like ID, name, and CNP (Personal Identification Number).
+- Provides methods to set and get person details.
 
+### 4. `Abonat`
+- Inherits from `Persoana` and represents a subscriber with additional attributes like phone number and subscription.
+- Allows choosing between standard and premium subscriptions during object creation.
 
- 
+### 5. `Clienti`
+- Manages a list of subscribers (`Abonat` objects).
+- Provides methods to add, display subscriber details, count premium subscribers, and calculate total revenue.
+
+## Functionality
+
+- **Creating Subscriber Lists**: Users can create and manage lists of subscribers, both standard and premium.
+- **Displaying Subscriber Data**: Users can view details of all subscribers in the list.
+- **Counting Premium Subscribers**: The system can count and display the number of premium subscribers.
+- **Calculating Total Revenue**: The system calculates and displays the total revenue collected from all subscribers.
+
+## Usage
+
+1. **Creating Subscriber Lists**: Choose option 1 from the menu to create a new list of subscribers.
+2. **Viewing Subscriber Data**: Choose option 2 to view details of all subscribers.
+3. **Counting Premium Subscribers**: Select option 3 to count and display the number of premium subscribers.
+4. **Calculating Total Revenue**: Choose option 4 to calculate and display the total revenue collected from all subscribers.
+5. **Exiting the Program**: Select option 5 to exit the program.
+
+## Notes
+
+- Customize the program as needed to add more features or modify existing functionality.
+- Ensure valid input when interacting with the program to avoid errors and unexpected behavior.
