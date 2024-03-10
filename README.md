@@ -26,18 +26,18 @@ The Membership Management System is a C++ program designed to manage subscribers
 
 ## Functionality
 
-- **Creating Subscriber Lists**: Users can create and manage lists of subscribers, both standard and premium.
-- **Displaying Subscriber Data**: Users can view details of all subscribers in the list.
-- **Counting Premium Subscribers**: The system can count and display the number of premium subscribers.
-- **Calculating Total Revenue**: The system calculates and displays the total revenue collected from all subscribers.
+- Users can create and manage lists of subscribers, both standard and premium.
+- Users can view details of all subscribers in the list.
+- The system can count and display the number of premium subscribers.
+- The system calculates and displays the total revenue collected from all subscribers.
 
 ## Usage
 
-1. **Creating Subscriber Lists**: Choose option 1 from the menu to create a new list of subscribers.
-2. **Viewing Subscriber Data**: Choose option 2 to view details of all subscribers.
-3. **Counting Premium Subscribers**: Select option 3 to count and display the number of premium subscribers.
-4. **Calculating Total Revenue**: Choose option 4 to calculate and display the total revenue collected from all subscribers.
-5. **Exiting the Program**: Select option 5 to exit the program.
+1. Choose option 1 from the menu to create a new list of subscribers.
+2. Choose option 2 to view details of all subscribers.
+3. Select option 3 to count and display the number of premium subscribers.
+4. Choose option 4 to calculate and display the total revenue collected from all subscribers.
+5. Select option 5 to exit the program.
 
 ## Notes
 
